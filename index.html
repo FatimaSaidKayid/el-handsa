@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0f8a5f">
+  <meta name="description" content="El Handsa - منصة تعليم الرياضيات للمرحلة الثانوية">
+  <title>El Handsa | منصة الهندسة التعليمية</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <script>try{var t=localStorage.getItem("elh-theme");if(t==="dark")document.documentElement.setAttribute("data-theme","dark")}catch(e){}</script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="all.css">
+</head>
+
+<body>
+
+  <!-- ===================== الصفحة الرئيسية ===================== -->
+  <div id="site">
+    <header class="nav" id="nav">
+      <div class="container nav-inner">
+        <a href="#home" class="brand"><span class="brand-mark">∑</span><span class="brand-text"><b>EL
+              <em>HANDSA</em></b><small>منصة الهندسة التعليمية</small></span></a>
+        <nav class="nav-links" id="nav-links">
+          <a href="#home">الرئيسية</a>
+          <a href="#features">المميزات</a>
+          <a href="#grades">الصفوف</a>
+          <a href="#how">كيف تبدأ</a>
+          <a href="#teacher">الهندسة</a>
+        </nav>
+        <div class="nav-actions">
+        <button class="theme-toggle" data-theme-toggle type="button" aria-label="تبديل الوضع الليلي/النهاري" title="الوضع الليلي / النهاري"><i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i></button>
+          <button class="btn btn-ghost" data-open-auth="login">تسجيل الدخول</button>
+          <button class="btn btn-primary" data-open-auth="signup">إنشاء حساب</button>
+          <button class="burger" id="burger" aria-label="القائمة"><span></span><span></span><span></span></button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="chip"><i></i> الرياضيات للمرحلة الثانوية</span>
+            <h1>افهم الفكرة،<br><span>وأتقن الحل.</span></h1>
+            <p>منصة تعليمية هادئة ومنظمة، فيها دروس فيديو مرتبة لصفك الدراسي، تشاهدها في أي وقت ومن أي جهاز وتعيدها كما
+              تشاء.</p>
+            <div class="hero-cta">
+              <button class="btn btn-primary btn-lg" data-open-auth="signup">ابدأ الآن مجاناً <span>←</span></button>
+              <button class="btn btn-outline btn-lg" data-open-auth="login">لدي حساب بالفعل</button>
+            </div>
+            <ul class="hero-stats">
+              <li><b>3</b><span>صفوف ثانوية</span></li>
+              <li><b>24/7</b><span>شاهد وقت ما تحب</span></li>
+              <li><b>HD</b><span>شرح واضح ومباشر</span></li>
+            </ul>
+          </div>
+          <div class="hero-visual">
+            <div class="photo-frame"><img src="assets/teacher.jpg" alt="معلم الرياضيات"></div>
+            <div class="float-card fc-1"><span class="fc-ico">▶</span>
+              <div><b>دروس فيديو</b><small>مرتبة حسب صفك</small></div>
+            </div>
+            <div class="float-card fc-2"><span class="fc-ico">✓</span>
+              <div><b>خطوة بخطوة</b><small>من الفكرة للحل</small></div>
+            </div>
+            <span class="shape s-pi">π</span><span class="shape s-int">∫</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <div class="container">
+          <div class="section-head"><span class="chip">لماذا El Handsa؟</span>
+            <h2>كل ما تحتاجه لتتفوق في مكان واحد</h2>
+            <p>صممنا المنصة لتكون بسيطة ومريحة، فتركّز على المذاكرة فقط.</p>
+          </div>
+          <div class="cards-3">
+            <article class="feature">
+              <div class="f-ico">🎯</div>
+              <h3>دروس صفك فقط</h3>
+              <p>بعد تسجيل الدخول تظهر لك دروس صفك الدراسي فقط، بدون تشتيت أو بحث طويل.</p>
+            </article>
+            <article class="feature">
+              <div class="f-ico">📱</div>
+              <h3>على أي جهاز</h3>
+              <p>موبايل أو تابلت أو كمبيوتر، المنصة تعمل بسلاسة وتناسب كل الشاشات.</p>
+            </article>
+            <article class="feature">
+              <div class="f-ico">🔁</div>
+              <h3>راجع وقت ما تحب</h3>
+              <p>أعد مشاهدة أي شرح أكثر من مرة حتى تتأكد أنك أتقنت الفكرة.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="grades">
+        <div class="container">
+          <div class="section-head"><span class="chip">الصفوف الدراسية</span>
+            <h2>اختر صفك وابدأ رحلتك</h2>
+            <p>عند إنشاء الحساب تختار صفك، ويتم تجهيز مكتبة دروسك تلقائياً.</p>
+          </div>
+          <div class="cards-3">
+            <article class="grade-card"><span class="g-num">1</span>
+              <h3>الصف الأول الثانوي</h3>
+              <p>أساس قوي في الجبر والهندسة وحساب المثلثات.</p><button class="link-btn" data-open-auth="signup">سجّل
+                الآن ←</button>
+            </article>
+            <article class="grade-card"><span class="g-num">2</span>
+              <h3>الصف الثاني الثانوي</h3>
+              <p>تعمّق في التفاضل والاستاتيكا والهندسة الفراغية.</p><button class="link-btn"
+                data-open-auth="signup">سجّل الآن ←</button>
+            </article>
+            <article class="grade-card"><span class="g-num">3</span>
+              <h3>الصف الثالث الثانوي</h3>
+              <p>مراجعة شاملة وتدريب مكثف للوصول للدرجة النهائية.</p><button class="link-btn"
+                data-open-auth="signup">سجّل الآن ←</button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="how">
+        <div class="container">
+          <div class="section-head"><span class="chip">كيف تبدأ؟</span>
+            <h2>ثلاث خطوات بسيطة</h2>
+          </div>
+          <div class="steps">
+            <div class="step"><span>1</span>
+              <h3>أنشئ حسابك</h3>
+              <p>اكتب اسمك ورقم هاتفك وصفك وكلمة مرور.</p>
+            </div>
+            <div class="step"><span>2</span>
+              <h3>سجّل الدخول</h3>
+              <p>ادخل برقم الهاتف وكلمة المرور في أي وقت.</p>
+            </div>
+            <div class="step"><span>3</span>
+              <h3>ابدأ المذاكرة</h3>
+              <p>شاهد دروس صفك وتابع تقدمك بسهولة.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="teacher">
+        <div class="container teacher-grid">
+          <div class="teacher-photo"><img src="assets/teacher.jpg" alt="معلم الرياضيات"></div>
+          <div>
+            <span class="chip">عن الهندسة</span>
+            <h2>معك خطوة بخطوة نحو النجاح</h2>
+            <p class="lead">شرح مبسّط يبدأ من الأساس ويصل بك إلى الحل الصحيح بثقة، مع أمثلة متنوعة وطرق ذكية للتعامل مع
+              كل نوع من المسائل.</p>
+            <ul class="ticks">
+              <li>شرح واضح ومنظم لكل درس</li>
+              <li>أمثلة وتدريبات على أفكار الامتحان</li>
+              <li>دروس جديدة تُضاف باستمرار</li>
+            </ul>
+            <button class="btn btn-primary" data-open-auth="signup">انضم إلينا الآن</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta">
+        <div class="container cta-box">
+          <div>
+            <h2>جاهز تبدأ؟</h2>
+            <p>أنشئ حسابك في أقل من دقيقة وشاهد دروس صفك.</p>
+          </div>
+          <button class="btn btn-light btn-lg" data-open-auth="signup">إنشاء حساب جديد</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="f-about">
+          <a href="#home" class="brand brand-light"><span class="brand-mark">∑</span><span class="brand-text"><b>EL
+                <em>HANDSA</em></b><small>منصة الهندسة التعليمية</small></span></a>
+          <p>منصة لتعليم الرياضيات للمرحلة الثانوية، نصنع التفوق بالعلم والاجتهاد.</p>
+        </div>
+        <div>
+          <h4>روابط سريعة</h4><a href="#home">الرئيسية</a><a href="#features">المميزات</a><a href="#grades">الصفوف</a><a
+            href="#how">كيف تبدأ</a>
+        </div>
+        <div>
+          <h4>حسابك</h4><button class="f-link" data-open-auth="login">تسجيل دخول الطالب</button><button class="f-link"
+            data-open-auth="signup">إنشاء حساب طالب</button><button class="f-link" data-open-auth="teacher">دخول
+            الهندسة</button>
+        </div>
+      </div>
+      <div class="footer-bottom">© <span class="year"></span> EL HANDSA · جميع الحقوق محفوظة
+        <p>صنع <i class="fa-solid fa-heart fa-beat" style="color: rgb(255, 0, 0);"></i> بواسطة Fatima Kayed
+        </p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- ===================== نافذة الدخول / إنشاء الحساب ===================== -->
+  <div id="auth-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="auth-title">
+    <div class="modal-backdrop" data-close-auth></div>
+    <div class="auth-box">
+      <button class="modal-close" data-close-auth aria-label="إغلاق">✕</button>
+      <div class="auth-head">
+        <span class="brand-mark">∑</span>
+        <h2 id="auth-title">مرحباً بك في El Handsa</h2>
+        <p id="auth-sub">سجّل دخولك لمتابعة دروسك</p>
+      </div>
+
+      <div class="tabs" id="auth-tabs">
+        <button class="tab active" data-tab="login">تسجيل الدخول</button>
+        <button class="tab" data-tab="signup">إنشاء حساب</button>
+      </div>
+
+      <!-- دخول الطالب -->
+      <form id="login-form" class="auth-form" novalidate>
+        <label for="login-phone">رقم الهاتف</label>
+        <input id="login-phone" type="tel" inputmode="numeric" placeholder="01XXXXXXXXX" autocomplete="username"
+          dir="ltr" required>
+        <label for="login-password">كلمة المرور</label>
+        <div class="pw"><input id="login-password" type="password" placeholder="أدخل كلمة المرور"
+            autocomplete="current-password" required><button type="button" class="pw-toggle"
+            aria-label="إظهار كلمة المرور">👁</button></div>
+        <button class="btn btn-primary btn-block" type="submit" id="login-submit">تسجيل الدخول</button>
+      </form>
+
+      <!-- إنشاء حساب طالب -->
+      <form id="signup-form" class="auth-form hidden" novalidate>
+        <label for="su-name">الاسم</label>
+        <input id="su-name" type="text" placeholder="اسمك الثلاثي" autocomplete="name" maxlength="80" required>
+        <label for="su-phone">رقم الهاتف</label>
+        <input id="su-phone" type="tel" inputmode="numeric" placeholder="01XXXXXXXXX" autocomplete="tel" dir="ltr"
+          required>
+        <label for="su-grade">الصف الدراسي</label>
+        <select id="su-grade" required>
+          <option value="">اختر صفك</option>
+          <option value="1">الأول الثانوي</option>
+          <option value="2">الثاني الثانوي</option>
+          <option value="3">الثالث الثانوي</option>
+        </select>
+        <label for="su-password">كلمة المرور</label>
+        <div class="pw"><input id="su-password" type="password" placeholder="6 أحرف أو أرقام على الأقل"
+            autocomplete="new-password" required minlength="6"><button type="button" class="pw-toggle"
+            aria-label="إظهار كلمة المرور">👁</button></div>
+        <button class="btn btn-primary btn-block" type="submit" id="signup-submit">إنشاء الحساب</button>
+      </form>
+
+      <!-- دخول الهندسة -->
+      <form id="teacher-form" class="auth-form hidden" novalidate>
+        <label for="t-email">البريد الإلكتروني للهندسة</label>
+        <input id="t-email" type="email" placeholder="name@example.com" autocomplete="username" dir="ltr" required>
+        <label for="t-password">كلمة المرور</label>
+        <div class="pw"><input id="t-password" type="password" placeholder="أدخل كلمة المرور"
+            autocomplete="current-password" required><button type="button" class="pw-toggle"
+            aria-label="إظهار كلمة المرور">👁</button></div>
+        <button class="btn btn-primary btn-block" type="submit" id="teacher-submit">دخول الهندسة</button>
+      </form>
+
+      <div id="auth-message" class="message" role="status"></div>
+      <div class="auth-foot"><button type="button" class="link-btn" id="toggle-teacher">🔒 دخول الهندسة</button></div>
+    </div>
+  </div>
+
+  <!-- ===================== لوحة التحكم ===================== -->
+  <section id="dashboard-screen" class="dashboard hidden">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand brand-light"><span class="brand-mark">∑</span><span class="brand-text"><b>EL
+            <em>HANDSA</em></b><small>منصة الهندسة</small></span></a>
+      <div class="side-user">
+        <div class="avatar" id="avatar">∑</div>
+        <div><b id="side-user-name">أهلاً بك</b><small id="side-user-role">طالب</small></div>
+      </div>
+      <nav>
+        <button class="nav-item active" data-view="library">▦ <span>المكتبة التعليمية</span></button>
+        <button class="nav-item teacher-only hidden" data-view="upload">＋ <span>رفع فيديو جديد</span></button>
+      </nav>
+      <div class="side-bottom">
+        <button id="home-btn" class="nav-item">⌂ <span>الصفحة الرئيسية</span></button>
+        <button id="logout-btn" class="nav-item logout">↪ <span>تسجيل الخروج</span></button>
+      </div>
+    </aside>
+
+    <section class="main-area">
+      <header class="topbar">
+        <button class="burger dark" id="side-toggle"
+          aria-label="القائمة"><span></span><span></span><span></span></button>
+        <div><small class="crumb">EL HANDSA / <span id="breadcrumb">المكتبة التعليمية</span></small>
+          <h1 id="welcome-title">أهلاً بك</h1>
+        </div>
+        <button class="theme-toggle" data-theme-toggle type="button" aria-label="تبديل الوضع الليلي/النهاري" title="الوضع الليلي / النهاري"><i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i></button>
+      <span class="grade-badge" id="grade-badge"></span>
+      </header>
+
+      <div class="content">
+        <div id="library-view" class="view">
+          <div class="hero-banner">
+            <div><span class="chip chip-light">LEARN · PRACTICE · EXCEL</span>
+              <h2 id="banner-title">ابدأ من حيث أنت، واستمر حتى تتفوق.</h2>
+              <p id="banner-sub">كل شروحاتك مرتبة في مكان واحد.</p>
+            </div>
+            <div class="hero-equation">∫ π ∑</div>
+          </div>
+          <div class="section-heading">
+            <h2 id="lib-title">دروسك</h2><span id="video-count" class="count-pill">0 فيديو</span>
+          </div>
+          <div class="filters">
+            <div class="filter-group teacher-only hidden">
+              <button class="filter active" data-grade="all">كل الصفوف</button>
+              <button class="filter" data-grade="1">الأول الثانوي</button>
+              <button class="filter" data-grade="2">الثاني الثانوي</button>
+              <button class="filter" data-grade="3">الثالث الثانوي</button>
+            </div>
+            <div class="search-wrap"><span>⌕</span><input id="search-input" type="search" placeholder="ابحث عن درس...">
+            </div>
+          </div>
+          <div id="video-grid" class="video-grid">
+            <div class="empty-state">
+              <div class="empty-icon">∑</div>
+              <h3>جاري تحميل الدروس...</h3>
+            </div>
+          </div>
+        </div>
+
+        <div id="upload-view" class="view hidden">
+          <div class="section-heading">
+            <div>
+              <h2>إضافة درس جديد</h2>
+              <p class="muted">ارفع الفيديو من جهازك وأضف بيانات الدرس.</p>
+            </div>
+          </div>
+          <form id="upload-form" class="upload-card">
+            <label class="upload-zone" for="video-file">
+              <div class="upload-symbol">↑</div><b>اضغط لاختيار الفيديو</b><span>يمكنك اختيار فيديو من الهاتف أو
+                الكمبيوتر</span><small id="file-name">لم يتم اختيار ملف بعد</small><input id="video-file" type="file"
+                accept="video/*" required>
+            </label>
+            <div class="form-grid">
+              <div><label for="lesson-title">اسم الدرس</label><input id="lesson-title" type="text"
+                  placeholder="مثال: مقدمة في حساب المثلثات" required maxlength="100"></div>
+              <div><label for="lesson-grade">الصف الدراسي</label><select id="lesson-grade" required>
+                  <option value="">اختر الصف</option>
+                  <option value="1">الأول الثانوي</option>
+                  <option value="2">الثاني الثانوي</option>
+                  <option value="3">الثالث الثانوي</option>
+                </select></div>
+            </div>
+            <div><label for="lesson-description">وصف مختصر (اختياري)</label><textarea id="lesson-description" rows="3"
+                maxlength="500" placeholder="اكتب نبذة بسيطة عن محتوى الدرس..."></textarea></div>
+            <div class="upload-actions"><span class="muted">الحد الأقصى 500 ميجابايت للفيديو.</span><button
+                class="btn btn-primary" type="submit" id="upload-submit">نشر الدرس ↑</button></div>
+            <div class="progress-track hidden" id="progress-track">
+              <div id="progress-bar"></div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <footer class="dash-footer">© <span class="year"></span> EL HANDSA · نصنع التفوق بالعلم والاجتهاد
+        <p>صنع <i class="fa-solid fa-heart fa-beat" style="color: rgb(255, 0, 0);"></i> بواسطة
+          <a href="fatimasaidkayed@gmail.com" target="_blank">Fatima Kayed</a>
+        </p>
+      </footer>
+    </section>
+  </section>
+
+  <div id="video-modal" class="modal hidden">
+    <div class="modal-backdrop" id="modal-backdrop"></div>
+    <div class="modal-box"><button id="close-modal" class="modal-close" aria-label="إغلاق">✕</button><video
+        id="lesson-player" controls playsinline controlslist="nodownload"></video>
+      <div class="modal-info"><span id="modal-grade" class="count-pill"></span>
+        <h3 id="modal-title"></h3>
+        <p id="modal-description"></p>
+      </div>
+    </div>
+  </div>
+  <a id="wa-float" class="wa-float" href="#" target="_blank" rel="noopener" aria-label="تواصل مع الدعم عبر واتساب"><i class="fa-brands fa-whatsapp"></i><span class="wa-tip">الدعم عبر واتساب</span></a>
+  <div id="toast" class="toast"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
